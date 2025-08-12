@@ -1,11 +1,8 @@
 ﻿using Solnet.Extensions;
-using Solnet.Extensions.TokenMint;
+using Solnet.Extensions.Models.TokenMint;
 using Solnet.Rpc;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Solnet.Examples
 {
@@ -21,7 +18,7 @@ namespace Solnet.Examples
         public void Run()
         {
 
-            Wallet.Wallet wallet = new Wallet.Wallet(MnemonicWords);
+            Wallet.Wallet wallet = new(MnemonicWords);
             Wallet.Account ownerAccount = wallet.GetAccount(10);
 
             // add TokenDef for a TestNet minted token created by Solnet examples

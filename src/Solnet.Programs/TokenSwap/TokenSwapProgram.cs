@@ -1,4 +1,5 @@
 using Solnet.Programs.Abstract;
+using Solnet.Programs.Models;
 using Solnet.Programs.TokenSwap.Models;
 using Solnet.Programs.Utilities;
 using Solnet.Rpc.Models;

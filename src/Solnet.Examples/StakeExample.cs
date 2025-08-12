@@ -11,10 +11,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Solnet.Programs.Models.Stake.State;
+using static Solnet.Programs.Stake.State;
 using Solnet.KeyStore;
 using Solnet.Wallet.Bip39;
 using Solnet.Wallet.Utilities;
+using Solnet.Programs.Stake;
 
 namespace Solnet.Examples
 {

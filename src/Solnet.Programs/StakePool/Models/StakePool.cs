@@ -6,7 +6,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
-using static Solnet.Programs.Models.Stake.State;
+using static Solnet.Programs.Stake.State;
 
 namespace Solnet.Programs.StakePool.Models
 {

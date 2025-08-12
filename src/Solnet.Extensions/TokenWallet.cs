@@ -1,4 +1,4 @@
-﻿using Solnet.Extensions.Models;
+﻿using Solnet.Extensions.Models.TokenWallet;
 using Solnet.Programs;
 using Solnet.Programs.Utilities;
 using Solnet.Rpc;

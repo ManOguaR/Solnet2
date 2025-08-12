@@ -1,3 +1,4 @@
+using Solnet.Programs.Models;
 using Solnet.Programs.Utilities;
 using Solnet.Rpc.Models;
 using Solnet.Rpc.Utilities;

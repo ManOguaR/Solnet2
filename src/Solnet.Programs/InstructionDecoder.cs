@@ -1,4 +1,6 @@
 ﻿using Solnet.Programs.AccountCompression;
+using Solnet.Programs.Models;
+using Solnet.Programs.Stake;
 using Solnet.Programs.TokenSwap;
 using Solnet.Rpc.Builders;
 using Solnet.Rpc.Models;

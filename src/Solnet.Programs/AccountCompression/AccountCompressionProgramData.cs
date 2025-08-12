@@ -1,4 +1,5 @@
-﻿using Solnet.Programs.Utilities;
+﻿using Solnet.Programs.Models;
+using Solnet.Programs.Utilities;
 using Solnet.Wallet;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using static Solnet.Programs.Models.Stake.State;
+using static Solnet.Programs.Stake.State;
 
 namespace Solnet.Programs.AccountCompression
 {

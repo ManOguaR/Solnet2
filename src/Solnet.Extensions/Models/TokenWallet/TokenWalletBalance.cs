@@ -1,11 +1,11 @@
-﻿using Solnet.Extensions.TokenMint;
+﻿using Solnet.Extensions.Models.TokenMint;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solnet.Extensions
+namespace Solnet.Extensions.Models.TokenWallet
 {
     /// <summary>
     /// A consolidated token balance for a number of accounts of a given mint.
@@ -70,7 +70,7 @@ namespace Solnet.Extensions
         {
 
             return new TokenWalletBalance(
-                this.TokenDef,
+                TokenDef,
                 QuantityDecimal + valueDecimal,
                 QuantityRaw + valueRaw, Lamports + lamportsRaw,
                 AccountCount + accountCount);

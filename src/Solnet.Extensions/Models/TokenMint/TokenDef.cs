@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Solnet.Extensions.Models.TokenWallet;
+using System;
 using System.Collections.Generic;
 
-namespace Solnet.Extensions.TokenMint
+namespace Solnet.Extensions.Models.TokenMint
 {
     /// <summary>
     /// Token Definition object used by the TokenMintResolver
@@ -130,11 +131,11 @@ namespace Solnet.Extensions.TokenMint
         internal TokenDef CloneWithKnownDecimals(int decimalPlaces)
         {
             if (decimalPlaces < 0) throw new ArgumentOutOfRangeException("Decimal places must be 0+");
-            return new TokenDef(this.TokenMint, this.TokenName, this.Symbol, decimalPlaces)
+            return new TokenDef(TokenMint, TokenName, Symbol, decimalPlaces)
             {
-                CoinGeckoId = this.CoinGeckoId,
-                TokenLogoUrl = this.TokenLogoUrl,
-                TokenProjectUrl = this.TokenProjectUrl
+                CoinGeckoId = CoinGeckoId,
+                TokenLogoUrl = TokenLogoUrl,
+                TokenProjectUrl = TokenProjectUrl
             };
         }
     }

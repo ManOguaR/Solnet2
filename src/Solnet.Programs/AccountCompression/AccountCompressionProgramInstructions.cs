@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solnet.Programs
+namespace Solnet.Programs.AccountCompression
 {
     /// <summary>
     /// Represents the instruction types for the <see cref="AccountCompressionProgram"/> ??? along with a friendly name so as not to use reflection ???.

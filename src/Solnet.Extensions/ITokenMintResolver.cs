@@ -1,4 +1,4 @@
-﻿using Solnet.Extensions.TokenMint;
+﻿using Solnet.Extensions.Models.TokenMint;
 using Solnet.Rpc.Core.Http;
 using System;
 using System.Collections.Generic;

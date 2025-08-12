@@ -1,4 +1,4 @@
-﻿using Solnet.Extensions.TokenMint;
+﻿using Solnet.Extensions.Models.TokenMint;
 using Solnet.Wallet;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solnet.Extensions
+namespace Solnet.Extensions.Models.TokenWallet
 {
     /// <summary>
     /// A token balance for an individual token account.

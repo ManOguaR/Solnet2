@@ -1,11 +1,11 @@
-﻿using Solnet.Extensions.TokenMint;
+﻿using Solnet.Extensions.Models.TokenMint;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solnet.Extensions
+namespace Solnet.Extensions.Models.TokenWallet
 {
     /// <summary>
     /// Represents a token quantity of a known mint with a known number of decimal places.
@@ -89,7 +89,7 @@ namespace Solnet.Extensions
                                            ulong valueRaw)
         {
 
-            return new TokenQuantity(this.TokenDef,
+            return new TokenQuantity(TokenDef,
                 QuantityDecimal + valueDecimal,
                 QuantityRaw + valueRaw);
 

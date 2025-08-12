@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Solnet.Extensions.TokenMint;
+using Solnet.Extensions.Models.TokenMint;
 using Solnet.Wallet;
 using System.IO;
 

@@ -1,4 +1,5 @@
-﻿using Solnet.Rpc.Models;
+﻿using Solnet.Programs.Models;
+using Solnet.Rpc.Models;
 using Solnet.Wallet;
 using Solnet.Wallet.Utilities;
 using System;

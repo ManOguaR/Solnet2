@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Solnet.Programs.Models;
 using Solnet.Rpc.Models;
 using Solnet.Wallet;
 using System;

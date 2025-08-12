@@ -1,11 +1,12 @@
-﻿using Solnet.Programs.Utilities;
+﻿using Solnet.Programs.Models;
+using Solnet.Programs.Utilities;
 using Solnet.Rpc.Models;
 using Solnet.Wallet;
 using System;
 using System.Collections.Generic;
-using static Solnet.Programs.Models.Stake.State;
+using static Solnet.Programs.Stake.State;
 
-namespace Solnet.Programs
+namespace Solnet.Programs.Stake
 {
     /// <summary>
     /// Implements the Stake Program methods.

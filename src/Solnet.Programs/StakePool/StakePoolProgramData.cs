@@ -1,4 +1,5 @@
-﻿using Solnet.Programs.StakePool.Models;
+﻿using Solnet.Programs.Models;
+using Solnet.Programs.StakePool.Models;
 using Solnet.Programs.Utilities;
 using Solnet.Wallet;
 using System;

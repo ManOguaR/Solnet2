@@ -1,10 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Solnet.Programs.Stake;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Solnet.Programs.Models.Stake.State;
+using static Solnet.Programs.Stake.State;
 
 namespace Solnet.Programs.Test
 {

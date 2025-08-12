@@ -5,8 +5,9 @@ using Solnet.Programs.Abstract;
 using System;
 using System.Text;
 using Solnet.Programs.StakePool.Models;
-using static Solnet.Programs.Models.Stake.State;
+using static Solnet.Programs.Stake.State;
 using System.Linq;
+using Solnet.Programs.Stake;
 
 namespace Solnet.Programs.StakePool
 {

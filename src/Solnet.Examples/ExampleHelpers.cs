@@ -1,4 +1,5 @@
 using Solnet.Programs;
+using Solnet.Programs.Models;
 using Solnet.Rpc;
 using Solnet.Rpc.Core.Http;
 using Solnet.Rpc.Messages;

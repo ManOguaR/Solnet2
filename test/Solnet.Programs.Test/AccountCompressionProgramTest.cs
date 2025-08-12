@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Solnet.Programs.AccountCompression;
 using Solnet.Wallet;
 using System.Linq;
 

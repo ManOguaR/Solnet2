@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Solnet.Programs.Models;
 using Solnet.Programs.TokenSwap;
 using Solnet.Programs.TokenSwap.Models;
 using Solnet.Rpc.Models;

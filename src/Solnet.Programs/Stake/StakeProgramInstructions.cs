@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solnet.Programs
+namespace Solnet.Programs.Stake
 {
     /// <summary>
     /// Represents the instruction types for the <see cref="StakeProgram"/> ??? along with a friendly name so as not to use reflection ???.

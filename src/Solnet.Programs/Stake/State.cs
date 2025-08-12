@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solnet.Programs.Models.Stake
+namespace Solnet.Programs.Stake
 {
     /// <summary>
     /// Represents <see cref="StakeProgram"/> State Structs in Solana.
@@ -57,7 +57,7 @@ namespace Solnet.Programs.Models.Stake
             /// UnixTimestamp at which this stake will allow withdrawal, unless the
             ///   transaction is signed by the custodian
             ///   </summary>
-            public Int64 UnixTimestamp { get; set; }
+            public long UnixTimestamp { get; set; }
             /// <summary>
             /// epoch height at which this stake will allow withdrawal, unless the
             /// transaction is signed by the custodian
