@@ -1,6 +1,6 @@
 ﻿namespace Solnet.Core
 {
-    public class ResilienceOptions
+    public interface ISolnetService
     {
     }
 }

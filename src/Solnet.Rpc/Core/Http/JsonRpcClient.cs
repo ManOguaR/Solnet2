@@ -4,7 +4,6 @@ using Solnet.Rpc.Messages;
 using Solnet.Rpc.Utilities;
 using System;
 using System.Linq;
-using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;

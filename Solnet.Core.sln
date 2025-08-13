@@ -40,6 +40,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{02EA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solnet.Core", "src\Solnet.Core\Solnet.Core.csproj", "{FF9A7D26-232E-4C14-A293-4948A6E25FD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solnet.Core.Abstractions", "src\Solnet.Core.Abstractions\Solnet.Core.Abstractions.csproj", "{079D273B-819F-4083-86C1-7487F2D9A9E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -94,6 +96,10 @@ Global
 		{FF9A7D26-232E-4C14-A293-4948A6E25FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF9A7D26-232E-4C14-A293-4948A6E25FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF9A7D26-232E-4C14-A293-4948A6E25FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079D273B-819F-4083-86C1-7487F2D9A9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079D273B-819F-4083-86C1-7487F2D9A9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079D273B-819F-4083-86C1-7487F2D9A9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079D273B-819F-4083-86C1-7487F2D9A9E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{676C103F-927C-42A1-A5C3-16136E50E805} = {51A58CB2-4260-4913-9613-EB8E4E0C4771}
 		{2FCF8D66-C706-43EC-BC5F-1E2B08758185} = {F50FF069-5F92-4A01-A1F5-4463DB022C62}
 		{FF9A7D26-232E-4C14-A293-4948A6E25FD9} = {51A58CB2-4260-4913-9613-EB8E4E0C4771}
+		{079D273B-819F-4083-86C1-7487F2D9A9E6} = {51A58CB2-4260-4913-9613-EB8E4E0C4771}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE3287F3-8CBC-4793-8CC9-A1AE4B8266ED}

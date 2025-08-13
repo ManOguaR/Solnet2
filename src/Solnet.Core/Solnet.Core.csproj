@@ -7,12 +7,50 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Builder\**" />
+    <Compile Remove="Configuration\**" />
+    <Compile Remove="Exceptions\**" />
+    <Compile Remove="Logging\**" />
+    <Compile Remove="Metadata\**" />
+    <Compile Remove="Monitoring\**" />
+    <Compile Remove="RpcClient\**" />
+    <Compile Remove="UsageTelemetry\**" />
+    <Compile Remove="UsageTracking\**" />
+    <EmbeddedResource Remove="Builder\**" />
+    <EmbeddedResource Remove="Configuration\**" />
+    <EmbeddedResource Remove="Exceptions\**" />
+    <EmbeddedResource Remove="Logging\**" />
+    <EmbeddedResource Remove="Metadata\**" />
+    <EmbeddedResource Remove="Monitoring\**" />
+    <EmbeddedResource Remove="RpcClient\**" />
+    <EmbeddedResource Remove="UsageTelemetry\**" />
+    <EmbeddedResource Remove="UsageTracking\**" />
+    <None Remove="Builder\**" />
+    <None Remove="Configuration\**" />
+    <None Remove="Exceptions\**" />
+    <None Remove="Logging\**" />
+    <None Remove="Metadata\**" />
+    <None Remove="Monitoring\**" />
+    <None Remove="RpcClient\**" />
+    <None Remove="UsageTelemetry\**" />
+    <None Remove="UsageTracking\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="IBusInstance.cs" />
+    <Compile Remove="ISolnet.cs" />
+    <Compile Remove="LogContext.cs" />
+    <Compile Remove="SolnetHealthStatus.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="9.0.8" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.8" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="KeyStore\" />
-    <Folder Include="Programs\" />
+    <ProjectReference Include="..\Solnet.Core.Abstractions\Solnet.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\Solnet.KeyStore\Solnet.KeyStore.csproj" />
   </ItemGroup>
 
 </Project>

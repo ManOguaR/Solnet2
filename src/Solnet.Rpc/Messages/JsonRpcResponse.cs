@@ -1,6 +1,5 @@
 ﻿using Solnet.Rpc.Converters;
 using Solnet.Rpc.Models;
-using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 namespace Solnet.Rpc.Messages

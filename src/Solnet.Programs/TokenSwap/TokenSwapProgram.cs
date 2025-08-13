@@ -168,7 +168,7 @@ namespace Solnet.Programs.TokenSwap
         /// <param name="tokenSwapAccount">The token swap account to operate over.</param>
         /// <param name="userTransferAuthority">user transfer authority.</param>
         /// <param name="tokenAuserAccount">token_a - user transfer authority can transfer amount.</param>
-        /// <param name="tokenBuserAccount">token_b - user transfer authority can transfer amount.</param>
+        /// <param name="tokenSolneterAccount">token_b - user transfer authority can transfer amount.</param>
         /// <param name="tokenADepositAccount">token_a Base Account to deposit into.</param>
         /// <param name="tokenBDepositAccount">token_b Base Account to deposit into.</param>
         /// <param name="poolTokenMint">Pool MINT account, swap authority is the owner.</param>
@@ -181,7 +181,7 @@ namespace Solnet.Programs.TokenSwap
             PublicKey tokenSwapAccount,
             PublicKey userTransferAuthority,
             PublicKey tokenAuserAccount,
-            PublicKey tokenBuserAccount,
+            PublicKey tokenSolneterAccount,
             PublicKey tokenADepositAccount,
             PublicKey tokenBDepositAccount,
             PublicKey poolTokenMint,
@@ -195,7 +195,7 @@ namespace Solnet.Programs.TokenSwap
                 AccountMeta.ReadOnly(swapAuthority, false),
                 AccountMeta.ReadOnly(userTransferAuthority, false),
                 AccountMeta.Writable(tokenAuserAccount, false),
-                AccountMeta.Writable(tokenBuserAccount, false),
+                AccountMeta.Writable(tokenSolneterAccount, false),
                 AccountMeta.Writable(tokenADepositAccount, false),
                 AccountMeta.Writable(tokenBDepositAccount, false),
                 AccountMeta.Writable(poolTokenMint, false),
